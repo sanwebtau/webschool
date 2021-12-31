@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This is Trial Web School Clone</title>
+  <link rel="shortcut icon" href="img/p2.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <div class="container-fluid bg-light text-center">
+    <div class="row">
+      <div class="col-lg-12 ">
+        <div class="typing-container border border-rounded shadow mt-2">
+          <span id="sentence" class="sentence text-success">Hi Guys I am :-</span>
+          <span id="feature-text"></span>
+          <span class="input-cursor"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light bgcolor fixed mt-2">
+    <div class="container-fluid ">
+      <a class="navbar-brand text-white" href="#">SR-Web School</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header bg-warning">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SR-Web School</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-danger">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active slideimg">
+        <img src="img/p1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item slideimg">
+        <img src="img/p2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item slideimg">
+        <img src="img/p2.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">IT Department</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Read more about IT</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Web Design Department</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Read more about Web Design</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Backend Department</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Read more about Backend</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-2">
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Nunc tincidunt</a></li>
+        <li><a href="#tabs-2">Proin dolor</a></li>
+        <li><a href="#tabs-3">Aenean lacinia</a></li>
+      </ul>
+      <div id="tabs-1">
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi
+          sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus
+          auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci.
+          Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius
+          sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+      </div>
+      <div id="tabs-2">
+        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc.
+          Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut
+          tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam.
+          Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean
+          vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus
+          pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur
+          tortor et purus.</p>
+      </div>
+      <div id="tabs-3">
+        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula
+          accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti
+          sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel
+          enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium
+          nec, feugiat nec, luctus a, lacus.</p>
+        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla
+          facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec
+          mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam
+          scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor,
+          tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque
+          nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-fluid border border-danger mt-2 mb-4">
+      <div class="row">
+        <div class="col-lg-4 bg-warning border border-rounded">
+          <h5 class="text-center">Top Level Course</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia amet quidem delectus earum similique
+            possimus asperiores praesentium enim doloribus repellendus, id commodi sint nihil. Quae assumenda a suscipit
+            pariatur?</p>
+        </div>
+        <div class="col-lg-4 border border-rounded bg-primary">
+          <h5 class="text-center">Middle Level Course</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia amet quidem delectus earum similique
+            possimus asperiores praesentium enim doloribus repellendus, id commodi sint nihil. Quae assumenda a suscipit
+            pariatur?</p>
+        </div>
+        <div class="col-lg-4 border border-rounded bg-danger ">
+          <h5 class="text-center">Low Level Course</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia amet quidem delectus earum similique
+            possimus asperiores praesentium enim doloribus repellendus, id commodi sint nihil. Quae assumenda a suscipit
+            pariatur?</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+  <script>
+    const carouselText = [
+      { text: "Frontend Developer", color: "red" },
+      { text: "Network Engineer", color: "orange" },
+      { text: "White-Hate Hacker", color: "blue" }
+
+    ]
+
+    $(document).ready(async function () {
+      carousel(carouselText, "#feature-text")
+    });
+
+    async function typeSentence(sentence, eleRef, delay = 100) {
+      const letters = sentence.split("");
+      let i = 0;
+      while (i < letters.length) {
+        await waitForMs(delay);
+        $(eleRef).append(letters[i]);
+        i++
+      }
+      return;
+    }
+
+    async function deleteSentence(eleRef) {
+      const sentence = $(eleRef).html();
+      const letters = sentence.split("");
+      let i = 0;
+      while (letters.length > 0) {
+        await waitForMs(100);
+        letters.pop();
+        $(eleRef).html(letters.join(""));
+      }
+    }
+
+    async function carousel(carouselList, eleRef) {
+      var i = 0;
+      while (true) {
+        updateFontColor(eleRef, carouselList[i].color)
+        await typeSentence(carouselList[i].text, eleRef);
+        await waitForMs(1500);
+        await deleteSentence(eleRef);
+        await waitForMs(500);
+        i++
+        if (i >= carouselList.length) { i = 0; }
+      }
+    }
+
+    function updateFontColor(eleRef, color) {
+      $(eleRef).css('color', color);
+    }
+
+    function waitForMs(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms))
+    }
+  </script>
+  <script>
+    $(function () {
+      $("#tabs").tabs();
+    });
+  </script>
+  <script>
+    $(function () {
+      var state = true;
+      $("#button").on("click", function () {
+        if (state) {
+          $("#effect").animate({
+            backgroundColor: "#aa0000",
+            color: "#fff",
+            width: 500
+          }, 1000);
+        } else {
+          $("#effect").animate({
+            backgroundColor: "#fff",
+            color: "#000",
+            width: 240
+          }, 1000);
+        }
+        state = !state;
+      });
+    });
+  </script>
+</body>
+
+</html>
